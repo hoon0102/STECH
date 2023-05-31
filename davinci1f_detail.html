@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEOULTECH</title>
+    <style>
+        body, html, h1, h2, h3, h4, h5, img{
+            margin: 0px;
+            font-family: 'Pretendard';
+            }
+        html{
+            background-color: #DF4343;
+        }
+        p{
+            line-height: 125%;
+        }
+        .scroll::-webkit-scrollbar {
+            display: none;
+        }
+        .absolute{
+            position: absolute;
+        }
+        .fixed{
+            position: fixed;
+        }
+        .dashed{
+            border-style: dashed;
+        }
+        .solid{
+            border: 1px solid;
+        }
+        .major{
+            position: absolute;
+            top: 267px;
+            left: 1235px;
+            color: white;
+            letter-spacing: 11px;
+            font-size: 40px;
+            font-weight: 900;
+        }
+        .topline{
+            border-width: 0px;
+            border-top-width: 2px;
+            margin-top: 343px;
+            width: 100%;
+        }
+        .bottomline{
+            border-width: 0px;
+            border-top-width: 2px;
+            top: 870px;
+            width: 100%;
+        }
+        .titleline{
+            border-width: 0px;
+            border-top-width: 2px;
+            top: 242px;
+            left: 1194px;
+            width: 100%;
+        }
+        .leftline{
+            left: 100px;
+            height: 100%;
+        }
+        .centerline{
+            border-width: 0px;
+            border-left-width: 2px;
+            top: 242px;
+            left: 1194px;
+            height: 100%;
+        }
+        .rightline{
+            right: 100px;
+            height: 100%;
+        }
+        .box1{
+            top: 344px;
+            left: 100px;
+            background-color: rgba(196, 196, 196, 0.5);
+            width: 1094px;
+            height: 526px;
+            backdrop-filter: blur(4px);
+        }
+        .box2{
+            top: 344px;
+            right: 0px;
+            background-color: rgba(196, 196, 196, 0.5);
+            width: 100px;
+            height: 526px;
+            backdrop-filter: blur(4px);
+        }
+        .b1line{
+            padding-left: 37px;
+        }
+        .b1lineOver{
+            opacity: 0;
+            top: 26px;
+            transition: opacity 0.3s ease;
+        }
+        .head:hover .b1lineOver{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f1{
+            position: absolute;
+            margin-left: 150px;
+            top: 10px;
+            width: 1154px;
+            
+        }
+
+        .back{
+            position: absolute;
+            top: 81px;
+            left: 36px;
+            width: 24px;
+            height: 45px;
+        }
+        .b1{
+            position: absolute;
+            opacity: 0;
+            left: 127px;
+            top: 57px;
+            transition: opacity 0.3s ease;
+        }
+        .f2{
+            position: absolute;
+            opacity: 0;
+            left: 535px;
+            top: 56px;
+            transition: opacity 0.3s ease;
+        }
+        .f3{
+            position: absolute;
+            opacity: 0;
+            left: 753px;
+            top: 56px;
+            transition: opacity 0.3s ease;
+        }
+        .f4{
+            position: absolute;
+            opacity: 0;
+            left: 975px;
+            top: 57px;
+            transition: opacity 0.3s ease;
+        }
+        .f5{
+            position: absolute;
+            opacity: 0;
+            left: 1200px;
+            top: 57px;
+            transition: opacity 0.3s ease;
+        }
+        .f6{
+            position: absolute;
+            opacity: 0;
+            left: 1420px;
+            top: 56px;
+            transition: opacity 0.3s ease;
+        }
+        .f7{
+            position: absolute;
+            opacity: 0;
+            left: 1642px;
+            top: 57px;
+            transition: opacity 0.3s ease;
+        }
+        .b1:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f2:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f3:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f4:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f5:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f6:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f7:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+
+        .wrapper{
+            margin-top: 350px;
+            margin-left: 1235px;
+        }
+        .text{
+            word-break: keep-all;
+            text-align: justify;
+            line-height: 200%;
+            top: 484px;
+            left: 132px;
+            width: 547px;
+            height: 456px;
+        }
+        .white{
+            color: white;
+        }
+        .button:hover.button-start {
+            color: #DF4343;
+        }
+    </style>
+</head>
+<body class="scroll">
+    
+    <div class="major">도예학과</div>
+    <div class="absolute box1 white"></div>
+    <div class="absolute box2 white"></div>
+    <div class="absolute dashed topline white"></div>
+    <div class="absolute dashed bottomline white"></div>
+    <div class="absolute dashed titleline white"></div>
+    <div class="fixed solid leftline white"></div>
+    <div class="fixed solid rightline white"></div>
+    <div class="fixed dashed centerline white"></div>
+    <img class="f1" src="floor1f.png">
+
+    <section class="head">
+        <img class="absolute b1line" src="f1line.png">
+        <img class="absolute b1lineOver" src="f1lineOver.png">
+        <a href="davinci1f.html">
+            <div class="back"></div>
+        </a>
+        <a href="davinci.html">
+            <img class="b1" src="B1.png">
+        </a>
+        <a href="davinci2f.html">
+            <img class="f2" src="2F.png">
+        </a>
+        <a href="davinci3f.html">
+            <img class="f3" src="3F.png">
+        </a>
+        <a href="davinci4f.html">
+            <img class="f4" src="4F.png">
+        </a>
+        <a href="davinci5f.html">
+            <img class="f5" src="5F.png">
+        </a>
+        <a href="davinci6f.html">
+            <img class="f6" src="6F.png">
+        </a>
+        <a href="davinci7f.html">
+            <img class="f7" src="7F.png">
+        </a>
+    </section>
+    
+        <button class=" button button-start"></button>
+
+    <section class="wrapper">
+        <div class="text">
+            <p class="white">101&nbsp; &nbsp; <span style="font-weight: 700;">도예학과 사무실</span></p>
+            <p class="white">102&nbsp; &nbsp; <span style="font-weight: 700;">창고</span></p>
+            <p class="white">103&nbsp; &nbsp; <span style="font-weight: 700;">강의실</span></p>
+            <p class="white">104&nbsp; &nbsp; <span style="font-weight: 700;">강의실</span></p>
+            <p class="white">105&nbsp; &nbsp; <span style="font-weight: 700;">강의실</span></p>
+            <p class="white">106&nbsp; &nbsp; <span style="font-weight: 700;">강의실</span></p>
+            <p class="white">107&nbsp; &nbsp; <span style="font-weight: 700;">강의실</span></p>
+            <p class="white">108&nbsp; &nbsp; <span style="font-weight: 700;">강의실</span></p>
+            <p class="white">115&nbsp; &nbsp; <span style="font-weight: 700;">강의실</span></p>
+            <p class="white">116&nbsp; &nbsp; <span style="font-weight: 700;">강의실</span></p>
+            <p class="white">117&nbsp; &nbsp; <span style="font-weight: 700;">강의실</span></p>
+            <p class="white">118&nbsp; &nbsp; <span style="font-weight: 700;">강의실</span></p>
+            <p class="white">119&nbsp; &nbsp; <span style="font-weight: 700;">강의실</span></p>
+            
+        </div>
+    </section>
+    
+
+</body>
+</html>
