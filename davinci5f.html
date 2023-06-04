@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEOULTECH</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body, html, h1, h2, h3, h4, h5, img{
+            margin: 0px;
+            font-family: 'Pretendard';
+            }
+        html{
+            background-color: #CFDD2A;
+        }
+        .scroll::-webkit-scrollbar {
+            display: none;
+        }
+        .absolute{
+            position: absolute;
+        }
+        .fixed{
+            position: fixed;
+        }
+        .dashed{
+            border-style: dashed;
+        }
+        .solid{
+            border: 1px solid;
+        }
+        .topline{
+            border-width: 0px;
+            border-top-width: 2px;
+            margin-top: 343px;
+            width: 100%;
+        }
+        .bottomline{
+            border-width: 0px;
+            border-top-width: 2px;
+            color: #272727;
+            top: 870px;
+            width: 100%;
+        }
+        .headline{
+            color: #CFDD2A;
+            margin-top: 402px;
+            padding-left: 1329px;
+            letter-spacing: 2.5px;
+            font-size: 40px;
+            font-weight: 300;
+            height: 48px;
+            background-color: white;
+            width: 100%;
+        }
+        .leftline{
+            left: 100px;
+            height: 100%;
+        }
+        .centerline{
+            border-width: 0px;
+            border-left-width: 2px;
+            top: 343px;
+            left: 1298px;
+            height: 100%;
+        }
+        .rightline{
+            right: 100px;
+            height: 100%;
+        }
+        .box1{
+            top: 344px;
+            left: 100px;
+            background-color: rgba(196, 196, 196, 0.5);
+            width: 1198px;
+            height: 526px;
+            backdrop-filter: blur(4px);
+        }
+        .box2{
+            top: 344px;
+            right: 0px;
+            background-color: rgba(196, 196, 196, 0.5);
+            width: 100px;
+            height: 526px;
+            backdrop-filter: blur(4px);
+            
+        }
+        .b1line{
+            padding-left: 37px;
+        }
+        .b1lineOver{
+            opacity: 0;
+            top: 26px;
+            transition: opacity 0.3s ease;
+        }
+        .head:hover .b1lineOver{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f5{
+            position: absolute;
+            margin-left: 102px;
+            top: 24px;
+            width: 1196px;
+            
+        }
+        .btnpos{
+            left: 1608px;
+            top: 777px;
+        }
+        .back{
+            position: absolute;
+            top: 81px;
+            left: 36px;
+            width: 24px;
+            height: 45px;
+        }
+        .b1{
+            position: absolute;
+            opacity: 0;
+            left: 127px;
+            top: 57px;
+            transition: opacity 0.3s ease;
+        }
+        .f1{
+            position: absolute;
+            opacity: 0;
+            left: 327px;
+            top: 57px;
+            transition: opacity 0.3s ease;
+        }
+        .f2{
+            position: absolute;
+            opacity: 0;
+            left: 546px;
+            top: 56px;
+            transition: opacity 0.3s ease;
+        }
+        .f3{
+            position: absolute;
+            opacity: 0;
+            left: 756px;
+            top: 57px;
+            transition: opacity 0.3s ease;
+        }
+        .f4{
+            position: absolute;
+            opacity: 0;
+            left: 977px;
+            top: 57px;
+            transition: opacity 0.3s ease;
+        }
+        .f6{
+            position: absolute;
+            opacity: 0;
+            left: 1422px;
+            top: 56px;
+            transition: opacity 0.3s ease;
+        }
+        .f7{
+            position: absolute;
+            opacity: 0;
+            left: 1644px;
+            top: 57px;
+            transition: opacity 0.3s ease;
+        }
+        .b1:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f1:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f2:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f3:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f4:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f6:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f7:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+
+        .wrapper{
+            margin-top: 420px;
+            margin-left: 1329px;
+        }
+        .text{
+            word-break: keep-all;
+            text-align: justify;
+            line-height: 200%;
+            top: 484px;
+            left: 132px;
+            width: 457px;
+            height: 456px;
+        }
+        .white{
+            color: white;
+        }
+        .button:hover.button-start {
+            color: #ADADAD;
+        }
+    </style>
+</head>
+<body class="scroll">
+    
+    <div class="absolute headline">학과&nbsp;소개&nbsp;:&nbsp;<span style="font-weight: 700;">산업디자인학과</span></div>
+    <div class="absolute box1 white"></div>
+    <div class="absolute box2 white"></div>
+    <div class="absolute dashed topline white"></div>
+    <div class="absolute dashed bottomline white"></div>
+    <div class="fixed solid leftline white"></div>
+    <div class="fixed solid rightline white"></div>
+    <div class="fixed dashed centerline white"></div>
+    <img class="f2" src="./src/f5Rend.png">
+
+    <section class="head">
+        <img class="absolute b1line" src="./src/f5line.png">
+        <img class="absolute b1lineOver" src="./src/f5lineOver.png">
+        <a href="stmap.html">
+            <div class="back"></div>
+        </a>
+        <a href="davinci.html">
+            <img class="b1" src="./src/B1.png">
+        </a>
+        <a href="davinci1f.html">
+            <img class="f1" src="./src/1F.png">
+        </a>
+        <a href="davinci2f.html">
+            <img class="f2" src="./src/2F.png">
+        </a>
+        <a href="davinci3f.html">
+            <img class="f3" src="./src/3F.png">
+        </a>
+        <a href="davinci4f.html">
+            <img class="f4" src="./src/4F.png">
+        </a>
+        <a href="davinci6f.html">
+            <img class="f6" src="./src/6F.png">
+        </a>
+        <a href="davinci7f.html">
+            <img class="f7" src="./src/7F.png">
+        </a>
+    </section>
+    
+    <button class="btnpos button button-start" type="button"><span class="button-text">자세히&nbsp;보기</span></button>
+    <section class="wrapper">
+        <div class="text">
+            <p class="white">21세기는 문화예술의 시대이며, 그 중에서도 도자예술은 인류의 탄생과 더불어 현재까지 주거문화에 밀접한 관련을 가지고있다.따라서 인류의 문화생활과 환경의질적 향상을 위하여 도자문화에 대한 심도있는 연구와 창작이 요구된다.</p>
+            <p class="white"> 도예학과에서는 이러한 시대적 요구에 부합되는 예술 문화 창조를 위해 심화된 이론과 창의적인 조형 능력을 체계적으로 연구,습득함으로써 창조적이며 생산적인 도자문화의 창출을 위한 지도적 인력 양성을 목적으로 하고있다.</p>
+        </div>
+    </section>
+    
+
+</body>
+</html>

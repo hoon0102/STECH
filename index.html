@@ -11,6 +11,9 @@
             margin: 0px;
             font-family: 'Pretendard';
             }
+        .scroll::-webkit-scrollbar {
+            display: none;
+        }
         section{
             padding-top: 50px;
             margin-left: 100px;
@@ -48,12 +51,35 @@
             font-weight: 300;
             letter-spacing: 100px;
         }
+        h5{
+            margin-left: -8px;
+            height: 100px;
+            color: #0A1F62;
+            font-size: 96px;
+            font-weight: 100;
+            letter-spacing: 100px;
+        }
+        
         .campus{
             color: #B90005;
             position: absolute;
             margin-top: 128px;
             margin-left: 828px;
             letter-spacing: -7.5px;
+        }
+        .seoul1{
+            color: #8F8F8F;
+            position: absolute;
+            margin-top: 221px;
+            margin-left: 604px;
+            letter-spacing: 30px;
+        }
+        .seoul2{
+            color: #E3E3E3;
+            position: absolute;
+            margin-top: 327px;
+            margin-left: 960px;
+            letter-spacing: 26px;
         }
         .upright{
             writing-mode: vertical-lr;
@@ -93,12 +119,12 @@
             width: 435px;
         }
         .right-m{
-            position: fixed;
+            position: absolute;
             border-width: 0px;
             border-top-width: 2px;
             margin-top: 559px;
             margin-left: 1039px;
-            width: 100%;
+            width: 50%;
         }
         .above-d{
             border-width: 0px;
@@ -107,21 +133,23 @@
             margin-top: 141px;
             height: 350px;
         }
+        .below-d{
+            position: fixed;
+            border-width: 0px;
+            border-left-width: 2px;
+            right: 195px;
+            margin-top: 561px;
+            height: 100%;
+        }
         .blue{
             color: #0A1F62;
         }
         .grey{
             color: #8F8F8F;
         }
-        /* .below-g {
-      		position: absolute;
-      		margin-top: 500px;
-            margin-left: 100px;
-	    width: 3px;
-	    height: 300px;
-
-   		background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='blue' stroke-width='6' stroke-dasharray='6%2c 21' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
-		}     */
+        .lgrey{
+            color: #E3E3E3;
+        }
         .stech_s{
             position: absolute;
             text-align: center;
@@ -135,13 +163,14 @@
 
     </style>
 </head>
-<body>
+<body class="scroll">
     <div class="absolute dashed below-g blue"></div>
     <div class="absolute solid left-m blue"></div>
     <div class="absolute solid right-g blue"></div>
     <div class="absolute dashed rightCon-g blue"></div>
     <div class="absolute dashed right-m grey"></div>
     <div class="absolute solid above-d grey"></div>
+    <div class="absolute solid below-d lgrey"></div>
     <section>
         
         <div class="meta">
@@ -150,14 +179,19 @@
             <h2>META</h2>
             <h3>META</h3>
             <h4>ME&nbsp<span style="color: #B90005;">T&nbsp&nbsp</h4>
-            <a href="stmap.html">
-                <img class="stech_s" src="stech_s.png">
-                <br>
-                <img class="stech_g" src="stech_g.png">
-                <img class="stech_d" src="stech_d.png">
-            </a>
+            <h5 class="seoul1"><span style="font-weight: 500;">S</span>EO&nbsp&nbspL<span style="font-weight: 500;">TECH</span></h5>
+            <h5 class="seoul2">EOUL<span style="font-weight: 500;">TECH</span></h5>
             
+            <a href="stmap.html">
+                <img class="stech_s" src="./src/stech_s.png">
+            </a>
+                <br>
+            <a href="stmap.html">
+                <img class="stech_g" src="./src/stech_g.png">
+                <img class="stech_d" src="./src/stech_d.png">
+            </a>
         </div>
+        
     </section>
           
 
