@@ -13,7 +13,10 @@
             font-family: 'Pretendard';
             }
         html{
-            background-color: #32CB54;
+            background-color: #272727;
+        }
+        p{
+            position: relative;
         }
         .scroll::-webkit-scrollbar {
             display: none;
@@ -30,6 +33,9 @@
         .solid{
             border: 1px solid;
         }
+        h1{
+
+        }
         .topline{
             border-width: 0px;
             border-top-width: 2px;
@@ -44,10 +50,9 @@
             width: 100%;
         }
         .headline{
-            color: #32CB54;
             margin-top: 402px;
             padding-left: 132px;
-            letter-spacing: 9px;
+            letter-spacing: 4px;
             font-size: 40px;
             font-weight: 300;
             height: 48px;
@@ -62,7 +67,7 @@
             border-width: 0px;
             border-left-width: 2px;
             top: 343px;
-            left: 670px;
+            left: 579px;
             height: 100%;
         }
         .rightline{
@@ -78,7 +83,7 @@
         }
         .box2{
             top: 344px;
-            left: 670px;
+            left: 580px;
             background-color: rgba(196, 196, 196, 0.5);
             width: 1237px;
             height: 526px;
@@ -86,7 +91,7 @@
             
         }
         .b1line{
-            padding-left: 37px;
+            padding-left: 34px;
         }
         .b1lineOver{
             opacity: 0;
@@ -97,17 +102,18 @@
             opacity: 1;
             transition: opacity 0.3s ease;
         }
-        .f3{
+        .b1{
             position: absolute;
-            margin-left: 672px;
-            top: 95px;
-            width: 1161px;
+            margin-left: 570px;
+            top: 98px;
+            width: 1263px;
             
         }
         .btnpos{
-            left: 448px;
+            left: 368px;
             top: 777px;
         }
+
         .back{
             position: absolute;
             top: 81px;
@@ -115,64 +121,74 @@
             width: 24px;
             height: 45px;
         }
-        .b1{
-            position: absolute;
-            opacity: 0;
-            left: 127px;
-            top: 57px;
-            transition: opacity 0.3s ease;
-        }
         .f1{
             position: absolute;
             opacity: 0;
-            left: 327px;
-            top: 56px;
+            left: 334.6px;
+            top: 57px;
             transition: opacity 0.3s ease;
         }
         .f2{
             position: absolute;
             opacity: 0;
-            left: 545px;
+            left: 535px;
+            top: 56px;
+            transition: opacity 0.3s ease;
+        }
+        .f3{
+            position: absolute;
+            opacity: 0;
+            left: 753px;
             top: 56px;
             transition: opacity 0.3s ease;
         }
         .f4{
             position: absolute;
             opacity: 0;
-            left: 977px;
+            left: 975px;
             top: 57px;
             transition: opacity 0.3s ease;
         }
         .f5{
             position: absolute;
             opacity: 0;
-            left: 1202px;
-            top: 58px;
+            left: 1200px;
+            top: 57px;
             transition: opacity 0.3s ease;
         }
         .f6{
             position: absolute;
             opacity: 0;
-            left: 1422px;
+            left: 1420px;
             top: 56px;
             transition: opacity 0.3s ease;
         }
         .f7{
             position: absolute;
             opacity: 0;
-            left: 1644px;
+            left: 1642px;
             top: 57px;
             transition: opacity 0.3s ease;
         }
-        .b1:hover{
+        /* .f1:hover
+        .f2:hover
+        .f3:hover
+        .f4:hover
+        .f5:hover
+        .f6:hover
+        .f7:hover{
             opacity: 1;
             transition: opacity 0.3s ease;
-        }
+        } */
         .f1:hover{
             opacity: 1;
             transition: opacity 0.3s ease;
         }
         .f2:hover{
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+        .f3:hover{
             opacity: 1;
             transition: opacity 0.3s ease;
         }
@@ -203,20 +219,17 @@
             line-height: 200%;
             top: 484px;
             left: 132px;
-            width: 500px;
+            width: 417px;
             height: 456px;
         }
         .white{
             color: white;
         }
-        .button:hover.button-start {
-            color: #32CB54;
-        }
     </style>
 </head>
 <body class="scroll">
     
-    <div class="absolute headline">학과&nbsp;소개&nbsp;:&nbsp;<span style="font-weight: 700;">금속공예학과</span></div>
+    <div class="absolute headline">지하1층&nbsp;:&nbsp;<span style="font-weight: 700;">다빈치관&nbsp;로비</span></div>
     <div class="absolute box1 white"></div>
     <div class="absolute box2 white"></div>
     <div class="absolute dashed topline white"></div>
@@ -224,44 +237,50 @@
     <div class="fixed solid leftline white"></div>
     <div class="fixed solid rightline white"></div>
     <div class="fixed dashed centerline white"></div>
-    <img class="f3" src="./src/f3Rend.png">
+    <img class="b1" src="b1Rend.png">
 
+    
+    
+    
     <section class="head">
-        <img class="absolute b1line" src="./src/f3line.png">
-        <img class="absolute b1lineOver" src="./src/f3lineOver.png">
+        <img class="absolute b1line" src="b1line.png">
+        <img class="absolute b1lineOver" src="b1lineOver.png">
         <a href="stmap.html">
             <div class="back"></div>
         </a>
-        <a href="davinci.html">
-            <img class="b1" src="./src/B1.png">
-        </a>
+        
         <a href="davinci1f.html">
-            <img class="f1" src="./src/1F.png">
+            <img class="f1" src="1F.png">
         </a>
         <a href="davinci2f.html">
-            <img class="f2" src="./src/2F.png">
+            <img class="f2" src="2F.png">
+        </a>
+        <a href="davinci3f.html">
+            <img class="f3" src="3F.png">
         </a>
         <a href="davinci4f.html">
-            <img class="f4" src="./src/4F.png">
+            <img class="f4" src="4F.png">
         </a>
         <a href="davinci5f.html">
-            <img class="f5" src="./src/5F.png">
+            <img class="f5" src="5F.png">
         </a>
         <a href="davinci6f.html">
-            <img class="f6" src="./src/6F.png">
+            <img class="f6" src="6F.png">
         </a>
         <a href="davinci7f.html">
-            <img class="f7" src="./src/7F.png">
+            <img class="f7" src="7F.png">
         </a>
     </section>
+    
     
     <button class="btnpos button button-start" type="button"><span class="button-text">자세히&nbsp;보기</span></button>
     <section class="wrapper">
         <div class="text">
-            <p class="white">서울과학기술대학교 금속공예디자인학과는 새로운 시대의 공예와 디자인을 선도하는 창의적인 전문가 양성을 목표로 하고 있다.</p>
-            <p class="white"> 재료의 물성과 기술에 대한 폭넓은 경험을 바탕으로 조형 능력과 문제해결능력을 키우며 4차 산업혁명시대의 변화된 사회적 요구에 대응할 수 있는 미래지향적인 융합인재로 성장할 수 있도록 교육하고 있다.</p>
+            <p class="white">과거 일제강점기 양식을 유지하던 다빈치관을 철거하고 그 부지 바로 뒤에 새로 다빈치관을 건설하여 2012년 완공하였다. 조형대학에서 주로 사용하며 각 학과별로 강의실과 관련 실습실이 갖추어져 있다.</p>
         </div>
     </section>
+    
+    
     
 
 </body>
